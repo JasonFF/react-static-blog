@@ -1,11 +1,14 @@
 import React,{Component} from 'react';
+import {ArticleList} from 'components';
 
 export default class Notebook extends Component {
+
   render() {
+    const style = require('./Notebook.less')
     return (
-      <div>
-        <span>notebook</span>
-      </div>
+      <ArticleList notebook={this.props.params.id}>
+
+      </ArticleList>
     )
   }
 }

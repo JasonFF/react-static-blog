@@ -3,8 +3,7 @@ import {ArticleList} from 'components';
 
 export default class Index extends Component {
   render() {
-    return <div>
-      <ArticleList notebook="javascript"/>
-    </div>
+    return <ArticleList>
+    </ArticleList>
   }
 }

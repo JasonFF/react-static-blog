@@ -1,7 +1,19 @@
-
+@import '../../theme/commonStyle.less';
 .container {
-  padding-left: 330px;
-  padding-right: 120px;
+  position: relative;
+  float: right;
+  min-height: 100%;
+  width: @rightWidth;
+  padding: 40px 30px 0;
+}
+
+.listBox {
+  position: relative;
+  margin: 30px 0;
+}
+
+.title {
+    font-size: 2rem;
 }
 @media (max-width: 850px) {
   .container {

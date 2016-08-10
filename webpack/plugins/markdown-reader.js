@@ -65,19 +65,23 @@ MarkdownReader.prototype.getData = function(files,index) {
 
 MarkdownReader.prototype.getNotebook = function(config) {
   var result = new Array();
+  var nid = 0;
   for (var i = 0; i < config.length; i++) {
     for (var m = 0; m < result.length; m++) {
       var ifMatch = false;
       if (result[m].notebook==config[i].notebook) {
         result[m].data.push(config[i]);
-        ifMatch = true
+        ifMatch = true;
+        break
       }
     }
     if (!ifMatch) {
       result.push({
+        nid: nid,
         notebook: config[i].notebook,
         data: [config[i]]
       })
+      nid++
     }
   }
   return result;

@@ -1,11 +1,9 @@
 {
-  "title": "test1",
+  "title": "React 单页面应用结构总结test1",
   "createTime": "2016-8-2",
   "author": "JasonFF",
   "notebook": "javascript"
 }
-
-# React 单页面应用结构总结test1
 
 > - React：页面展示
 > - Redux：数据控制

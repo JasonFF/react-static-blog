@@ -1,8 +1,8 @@
 {
-  "title": "React 单页面应用结构总结test2",
+  "title": "React 单页面应用结构总结test3",
   "createTime": "2016-8-2",
   "author": "JasonFF",
-  "notebook": "html5"
+  "notebook": "javascript"
 }
 
 > - React：页面展示

@@ -1,6 +1,26 @@
+@primary: #ffd000;
+@secondary: #ff5722;
 
+@fontColor: #444;
+@leftWidth: 30%;
+@rightWidth: 70%;
 :global{
   @import './cssInit.css';
   @import './github-markdown-theme.less';
-
+  html {
+    color: @fontColor;
+  }
+  body {
+    background-color: #f2f3f4
+  }
+  #content {
+    height: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: @fontColor;
+  }
+  a:hover {
+    color: @secondary
+  }
 }
